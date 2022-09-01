@@ -1,11 +1,16 @@
 import NavBar from "../Navbar";
+import { TopBlackContainer, LayoutContainer } from "./Layout.styles";
 
 const Layout = ({ children }) => {
   return (
-    <div>
-      <NavBar></NavBar>
+    <LayoutContainer>
+      <TopBlackContainer>
+        <span className="title">{`<Kelvin crepaldi/>`}</span>
+        <NavBar></NavBar>
+      </TopBlackContainer>
+
       <div>{children}</div>
-    </div>
+    </LayoutContainer>
   );
 };
 

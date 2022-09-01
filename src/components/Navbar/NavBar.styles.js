@@ -1,25 +1,23 @@
 import styled from "styled-components";
 
-export const NavBarContainer = styled.nav`
-  display: flex;
-  width: 100vw;
-  min-width: 375px;
-  padding: 2px 0px;
+export const NavBarButton = styled.div`
+  button {
+    width: 40px;
+    height: 40px;
 
-  border-bottom: 1px solid black;
-  list-style: none;
+    margin: 5px 10px;
+    padding: 0px;
 
-  ul {
-    display: flex;
-    padding-left: 20px;
+    border: none;
+    background: none;
   }
+  .buttonDraw {
+    width: 100%;
+    height: 7px;
 
-  li {
-    padding: 10px 15px;
-    margin: 0px 1px;
-    border: 1px solid black;
-  }
-  a {
-    text-decoration: none;
+    margin: 6px 0 0 0;
+
+    background-color: #fff;
+    border-radius: 10px;
   }
 `;

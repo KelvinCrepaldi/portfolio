@@ -53,19 +53,21 @@ const GlobalStyle = createGlobalStyle`
     // GLOBAL CONFIG
 
     body{
-        background: grey;
+        background: #2F2E3C;
         background-attachment: fixed;
         background-size: 100% 100%;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        min-width: 375px;
+        min-width: 360px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     }
 
     // GLOBAL VARIABLES
 
     :root{
-
+        --top-title: #A4A4A4;
+        --transparent-container-black: rgb(0,0,0,0.2)
     }
 
 `;
