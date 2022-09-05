@@ -4,11 +4,14 @@ export const HomeContainer = styled.div`
   flex-wrap: wrap;
   justify-content: center;
 
-  .first-content {
-    height: 70vh;
+  //========================= TITLE =======================
+
+  .title-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+
+    min-height: 65vh;
   }
 
   .title-container {
@@ -16,47 +19,67 @@ export const HomeContainer = styled.div`
     flex-wrap: wrap;
     justify-content: center;
 
-    min-width: 300px;
-    max-width: 400px;
-    height: 76px;
-    padding: 10px;
-    margin: 20px;
-    border-radius: 20px;
+    width: 300px;
+    padding: 15px;
+    margin: 15vh 0px 25px 0px;
+    border-radius: 10px;
 
+    background: rgb(255, 255, 255);
     background: linear-gradient(
-        270deg,
-        rgba(0, 0, 0, 0.2) 0%,
-        rgba(0, 0, 0, 0) 49.93%
-      ),
-      linear-gradient(
-        90deg,
-        rgba(217, 217, 217, 0.06) 0.01%,
-        rgba(217, 217, 217, 0) 100%
-      );
-    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+      90deg,
+      rgba(255, 255, 255, 0.2) 0%,
+      rgba(255, 255, 255, 0) 5%
+    );
+
+    span {
+      width: 100%;
+      text-align: center;
+      height: auto;
+    }
   }
 
-  .title-content-one {
-    width: 100%;
-    font-size: 22px;
+  .title-content-top {
+    font-size: 24px;
     color: rgba(255, 255, 255, 0.8);
-    text-align: center;
   }
-  .title-content-two {
-    width: 100%;
-    font-size: 18px;
+  .title-content-bottom {
+    font-size: 20px;
     color: rgba(255, 255, 255, 0.6);
-    text-align: center;
   }
 
-  button {
-    width: 100px;
-    height: 25px;
-    margin: 10px;
+  .button-home-container {
+    button {
+      width: 100px;
+      height: 25px;
+      margin: 0 10px;
 
-    border-radius: 15px;
-    border: none;
-    background-color: rgb(0, 0, 0, 0.2);
-    color: rgb(255, 255, 255, 0.8);
+      border-radius: 15px;
+      border: none;
+      background-color: rgb(0, 0, 0, 0.2);
+      color: rgb(255, 255, 255, 0.8);
+    }
+
+    display: flex;
+    justify-content: center;
+  }
+
+  .welcome-message {
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: end;
+
+    width: 100%;
+    margin-top: 100px;
+
+    span {
+      display: block;
+      width: 350px;
+      text-align: center;
+      font-size: 16px;
+      color: rgb(255, 255, 255, 0.5);
+      margin: 5px;
+    }
   }
 `;

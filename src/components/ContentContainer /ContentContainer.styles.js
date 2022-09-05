@@ -1,7 +1,10 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  width: 90%;
+  margin: 30px;
   min-height: 90%;
+
+  padding: 10px;
+
   background-color: var(--transparent-container-black);
 `;
