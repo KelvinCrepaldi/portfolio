@@ -1,15 +1,16 @@
-import NavBar from "../Navbar";
+import MobileNavBar from "../MobileNavbar";
 import { TopBlackContainer, LayoutContainer } from "./Layout.styles";
-
+import Footer from "../Footer";
 const Layout = ({ children }) => {
   return (
     <LayoutContainer>
       <TopBlackContainer>
         <span className="title">{`<Kelvin crepaldi/>`}</span>
-        <NavBar></NavBar>
+        <MobileNavBar></MobileNavBar>
       </TopBlackContainer>
 
       <div>{children}</div>
+      <Footer></Footer>
     </LayoutContainer>
   );
 };

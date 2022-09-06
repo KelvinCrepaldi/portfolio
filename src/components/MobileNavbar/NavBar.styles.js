@@ -10,14 +10,11 @@ export const NavBarButton = styled.div`
 
     border: none;
     background: none;
+    color: white;
+    font-size: 36px;
   }
-  .buttonDraw {
-    width: 100%;
-    height: 7px;
 
-    margin: 6px 0 0 0;
-
-    background-color: #fff;
-    border-radius: 10px;
+  button:focus {
+    color: rgb(200, 200, 255);
   }
 `;

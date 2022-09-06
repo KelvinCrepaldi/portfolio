@@ -11,7 +11,7 @@ export const HomeContainer = styled.div`
     flex-wrap: wrap;
     justify-content: center;
 
-    min-height: 65vh;
+    min-height: 70vh;
   }
 
   .title-container {
@@ -21,7 +21,7 @@ export const HomeContainer = styled.div`
 
     width: 300px;
     padding: 15px;
-    margin: 15vh 0px 25px 0px;
+    margin: 30vh 0px 20px 0px;
     border-radius: 10px;
 
     background: rgb(255, 255, 255);
@@ -32,14 +32,18 @@ export const HomeContainer = styled.div`
     );
 
     span {
-      width: 100%;
+      width: auto;
       text-align: center;
-      height: auto;
     }
   }
 
+  .name {
+    margin: 0 6px;
+  }
+
   .title-content-top {
-    font-size: 24px;
+    display: flex;
+    font-size: 20px;
     color: rgba(255, 255, 255, 0.8);
   }
   .title-content-bottom {
@@ -49,14 +53,21 @@ export const HomeContainer = styled.div`
 
   .button-home-container {
     button {
-      width: 100px;
-      height: 25px;
+      width: 120px;
+      height: 35px;
       margin: 0 10px;
 
       border-radius: 15px;
       border: none;
       background-color: rgb(0, 0, 0, 0.2);
       color: rgb(255, 255, 255, 0.8);
+    }
+    button:focus {
+      background-color: rgb(100, 100, 100, 0.5);
+    }
+
+    button span {
+      margin: 5px;
     }
 
     display: flex;
@@ -75,11 +86,11 @@ export const HomeContainer = styled.div`
 
     span {
       display: block;
-      width: 350px;
+      width: 320px;
       text-align: center;
       font-size: 16px;
       color: rgb(255, 255, 255, 0.5);
-      margin: 5px;
+      margin-top: 10px;
     }
   }
 `;

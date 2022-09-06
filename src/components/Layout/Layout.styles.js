@@ -12,6 +12,7 @@ export const TopBlackContainer = styled.header`
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  position: fixed;
 
   background: rgb(0, 0, 0);
   background: linear-gradient(
