@@ -1,12 +1,8 @@
 import { AboutMeContainer } from "./AboutMe.styles";
+
 const AboutMe = () => {
   return (
     <AboutMeContainer>
-      <div className="title">
-        <span></span>
-        <h1>Sobre mim</h1>
-        <div className="line"></div>
-      </div>
       <p>
         Meu contato com tecnologia começou com minha curiosidade sobre
         “programação” na adolescência, desde então tenho dedicado meu tempo para
@@ -23,6 +19,10 @@ const AboutMe = () => {
         que conheci a Kenzie Academy, e iniciei minha jornada de 1 ano de
         estudos.
       </p>
+      <img
+        src="https://static.semrush.com/blog/uploads/media/43/b0/43b0b9a04c8a433a0c52360c9cc9aaf2/seo-guide-to-yoast-for-wordpress.svg"
+        alt="yoast seo"
+      />
       <p>
         Formado pela Kenzie Academy como Full Stack, aprendi principais
         tecnologias de Front End e Back End. Entre as linguagens e tecnologias
@@ -30,7 +30,11 @@ const AboutMe = () => {
         (Django e Flask),Node.js, Express, e SQL. Além de soft skills
         disponíveis para o mercado de trabalho, Scrum, Kanban.
       </p>
-      <span>E minha jornada continua . . .</span>
+      <span className="final-message">E minha jornada continua . . .</span>
+      <img
+        src="https://static.semrush.com/blog/uploads/media/43/b0/43b0b9a04c8a433a0c52360c9cc9aaf2/seo-guide-to-yoast-for-wordpress.svg"
+        alt="yoast seo"
+      />
     </AboutMeContainer>
   );
 };

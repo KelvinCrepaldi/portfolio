@@ -1,6 +1,10 @@
 import ContentContainer from "../../components/ContentContainer ";
 import { HomeContainer } from "./Home.styles";
 import AboutMe from "../../components/AboutMe";
+import Technologies from "../../components/Technologies";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faAddressCard, faMicrochip } from "@fortawesome/free-solid-svg-icons";
 
 const Home = () => {
   return (
@@ -9,15 +13,21 @@ const Home = () => {
         <div>
           <div className="title-container">
             <span className="title-content-top">
-              Olá, eu sou Kelvin Crepaldi
+              Olá, eu sou <span className="name">Kelvin Crepaldi</span>
             </span>
             <span className="title-content-bottom">
               Desenvolvedor Full-Stack Jr
             </span>
           </div>
           <div className="button-home-container">
-            <button>Github</button>
-            <button>Linkedin</button>
+            <button>
+              <FontAwesomeIcon icon={faGithub}></FontAwesomeIcon>
+              <span>Github</span>
+            </button>
+            <button>
+              <FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon>
+              <span>Linkedin</span>
+            </button>
           </div>
         </div>
 
@@ -30,8 +40,11 @@ const Home = () => {
         </div>
       </div>
 
-      <ContentContainer>
+      <ContentContainer icon={faAddressCard} title="Sobre mim">
         <AboutMe></AboutMe>
+      </ContentContainer>
+      <ContentContainer icon={faMicrochip} title="Tecnologias">
+        <Technologies></Technologies>
       </ContentContainer>
     </HomeContainer>
   );
