@@ -56,9 +56,6 @@ const GlobalStyle = createGlobalStyle`
         background: #2F2E3C;
         background-attachment: fixed;
         background-size: 100% 100%;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
         min-width: 360px;
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     }
