@@ -30,7 +30,9 @@ const AboutMe = () => {
         (Django e Flask),Node.js, Express, e SQL. Além de soft skills
         disponíveis para o mercado de trabalho, Scrum, Kanban.
       </p>
-      <span className="final-message">E minha jornada continua . . .</span>
+      <div className="total-width-space">
+        <span className="final-message">E minha jornada continua . . .</span>
+      </div>
       <img
         src="https://static.semrush.com/blog/uploads/media/43/b0/43b0b9a04c8a433a0c52360c9cc9aaf2/seo-guide-to-yoast-for-wordpress.svg"
         alt="yoast seo"

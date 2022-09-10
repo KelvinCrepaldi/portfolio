@@ -2,6 +2,7 @@ import ContentContainer from "../../components/ContentContainer ";
 import { HomeContainer } from "./Home.styles";
 import AboutMe from "../../components/AboutMe";
 import Technologies from "../../components/Technologies";
+import GoToPortfolio from "../../components/GoToPortfolio";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faAddressCard, faMicrochip } from "@fortawesome/free-solid-svg-icons";
@@ -41,10 +42,13 @@ const Home = () => {
       </div>
 
       <ContentContainer icon={faAddressCard} title="Sobre mim">
-        <AboutMe></AboutMe>
+        <AboutMe />
       </ContentContainer>
       <ContentContainer icon={faMicrochip} title="Tecnologias">
-        <Technologies></Technologies>
+        <Technologies />
+      </ContentContainer>
+      <ContentContainer>
+        <GoToPortfolio />
       </ContentContainer>
     </HomeContainer>
   );
