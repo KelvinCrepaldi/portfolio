@@ -2,11 +2,12 @@ import styled from "styled-components";
 
 export const LayoutContainer = styled.div`
   min-height: 100vh;
+  width: 100vw;
 `;
 
 export const TopBlackContainer = styled.header`
-  width: 100%;
-  height: 80px;
+  width: 100vw;
+  height: 70px;
 
   display: flex;
   flex-wrap: wrap;
@@ -16,7 +17,7 @@ export const TopBlackContainer = styled.header`
   background: rgb(0, 0, 0);
   background: linear-gradient(
     180deg,
-    rgba(0, 0, 0, 1) 70%,
+    rgba(0, 0, 0, 1) 90%,
     rgba(45, 23, 23, 0) 100%
   );
   color: var(--top-title);

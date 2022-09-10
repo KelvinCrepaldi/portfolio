@@ -52,6 +52,13 @@ const GlobalStyle = createGlobalStyle`
 
     // GLOBAL CONFIG
 
+    html, body{
+        max-width: 100vw;
+        -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    }
+
     body{
         background: #2F2E3C;
         background-attachment: fixed;

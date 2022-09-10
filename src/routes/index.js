@@ -10,8 +10,8 @@ const RoutesPatchs = () => {
     <Layout>
       <Routes>
         <Route exact path="/" element={<Home />} />
-        <Route path="/contact" element={Contact} />
-        <Route path="/portfolio" element={Portfolio} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/portfolio" element={<Portfolio />} />
       </Routes>
     </Layout>
   );
