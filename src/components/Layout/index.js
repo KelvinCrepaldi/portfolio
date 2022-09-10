@@ -9,7 +9,7 @@ const Layout = ({ children }) => {
         <MobileNavBar></MobileNavBar>
       </TopBlackContainer>
 
-      <div>{children}</div>
+      <div className="content-page">{children}</div>
       <Footer></Footer>
     </LayoutContainer>
   );

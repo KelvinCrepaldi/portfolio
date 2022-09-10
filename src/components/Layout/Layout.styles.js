@@ -1,8 +1,12 @@
 import styled from "styled-components";
 
 export const LayoutContainer = styled.div`
-  min-height: 100vh;
   width: 100vw;
+  padding-top: 70px;
+
+  .content-page {
+    min-height: 100vh;
+  }
 `;
 
 export const TopBlackContainer = styled.header`
@@ -13,6 +17,7 @@ export const TopBlackContainer = styled.header`
   flex-wrap: wrap;
   justify-content: space-between;
   position: fixed;
+  top: 0;
 
   background: rgb(0, 0, 0);
   background: linear-gradient(

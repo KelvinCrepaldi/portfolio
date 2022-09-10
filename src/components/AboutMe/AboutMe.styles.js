@@ -5,7 +5,7 @@ export const AboutMeContainer = styled.div`
   justify-content: center;
 
   p {
-    margin: 30px 10px;
+    margin: 30px 20px;
     text-align: center;
     font-size: 16px;
     color: white;
@@ -24,6 +24,12 @@ export const AboutMeContainer = styled.div`
   span {
     display: block;
     text-align: center;
+  }
+
+  .total-width-space {
+    width: 100%;
+    display: flex;
+    justify-content: center;
   }
 
   .final-message {

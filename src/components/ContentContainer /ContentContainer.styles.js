@@ -3,8 +3,7 @@ import styled from "styled-components";
 export const Container = styled.div`
   margin: 15px;
   min-height: 90%;
-  width: 100vw;
-
+  width: auto;
   padding: 10px;
   padding-bottom: 20px;
 
@@ -13,7 +12,6 @@ export const Container = styled.div`
   .title {
     width: 100%;
     display: flex;
-    margin-bottom: 25px;
     color: white;
 
     span {
