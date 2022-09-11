@@ -10,9 +10,32 @@ const Portfolio = () => {
   return (
     <PortfolioContainer>
       <ContentContainer title="Portfólio" icon={faDiagramProject}>
-        {projectsData.map((project) => {
-          return <ProjectCard project={project}></ProjectCard>;
-        })}
+        <div className="tech-filter">
+          <label>
+            <select placeholder="Filtrar...">
+              <option className="option" value="" disabled selected>
+                Filtrar...
+              </option>
+              <option className="option" value="hurr">
+                Durr
+              </option>
+              <option className="option" value="hurr">
+                Durr
+              </option>
+              <option className="option" value="hurr">
+                Durr
+              </option>
+              <option className="option" value="hurr">
+                Durr
+              </option>
+            </select>
+          </label>
+        </div>
+        <div className="projects-container">
+          {projectsData.map((project) => {
+            return <ProjectCard project={project}></ProjectCard>;
+          })}
+        </div>
       </ContentContainer>
     </PortfolioContainer>
   );

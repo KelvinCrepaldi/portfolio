@@ -33,12 +33,60 @@ export const techsData = [
 
 export const projectsData = [
   {
-    title: "Titulo do Projeto",
+    title: "Mind Habits",
     description:
-      "A nossa aplicação tem como objetivo ajudar o pequeno empreendedor de café  a divulgar o seu produto e receber avaliações e, também, ajudar o cliente a encontrar os melhores produtos baseados nas avaliações de outros clientes.",
-    techs: ["javascript", "react", "redux"],
-    repo_url: "www.google.com",
-    demo_url: "www.google.com",
-    img_print: Image,
+      "Aplicação em React onde o usuário possa gerir hábitos que queira adquirir/praticar, criando hábitos e/ou participando de grupos com outras pessoas que possuam os mesmos hábitos.",
+    techs: [
+      "React.js",
+      "Styled components",
+      "Material UI",
+      "React icons",
+      "Hook form",
+      "Axios",
+      "Yup",
+      "JWT Decode",
+      "Toastify",
+    ],
+    repo_url: "https://github.com/KelvinCrepaldi/mind-habits-app",
+    demo_url: "https://mind-habits-app.vercel.app/",
+    img_print: "https://i.imgur.com/wLhXXmY.png",
+  },
+  {
+    title: "Mind Habits",
+    description:
+      "Aplicação em React onde o usuário possa gerir hábitos que queira adquirir/praticar, criando hábitos e/ou participando de grupos com outras pessoas que possuam os mesmos hábitos.",
+    techs: [
+      "React.js",
+      "Styled components",
+      "Material UI",
+      "React icons",
+      "Hook form",
+      "Axios",
+      "Yup",
+      "JWT Decode",
+      "Toastify",
+    ],
+    repo_url: "https://github.com/KelvinCrepaldi/mind-habits-app",
+    demo_url: "https://mind-habits-app.vercel.app/",
+    img_print: "https://i.imgur.com/wLhXXmY.png",
+  },
+  {
+    title: "Mind Habits",
+    description:
+      "Aplicação em React onde o usuário possa gerir hábitos que queira adquirir/praticar, criando hábitos e/ou participando de grupos com outras pessoas que possuam os mesmos hábitos.",
+    techs: [
+      "React.js",
+      "Styled components",
+      "Material UI",
+      "React icons",
+      "Hook form",
+      "Axios",
+      "Yup",
+      "JWT Decode",
+      "Toastify",
+    ],
+    repo_url: "https://github.com/KelvinCrepaldi/mind-habits-app",
+    demo_url: "https://mind-habits-app.vercel.app/",
+    img_print: "https://i.imgur.com/wLhXXmY.png",
   },
 ];
