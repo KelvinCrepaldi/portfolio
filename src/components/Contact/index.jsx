@@ -34,18 +34,21 @@ const Contact = () => {
       <h2>Acesse minhas páginas:</h2>
       <ul>
         <li>
-          <a>
+          <a
+            href="https://www.linkedin.com/in/kelvincrepaldi/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <FontAwesomeIcon icon={faLinkedin} />
           </a>
         </li>
         <li>
-          <a>
+          <a
+            href="https://github.com/KelvinCrepaldi"
+            target="_blank"
+            rel="noreferrer"
+          >
             <FontAwesomeIcon icon={faGithub} />
-          </a>
-        </li>
-        <li>
-          <a>
-            <FontAwesomeIcon icon={faDiscord} />
           </a>
         </li>
       </ul>

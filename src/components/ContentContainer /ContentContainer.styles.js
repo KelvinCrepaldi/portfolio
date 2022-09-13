@@ -7,7 +7,7 @@ export const Container = styled.div`
   padding: 10px;
   padding-bottom: 20px;
   flex-grow: 1;
-  background-color: rgb(0, 0, 0, 0.2);
+  background-color: rgb(0, 0, 0, 0.5);
   .title {
     width: 100%;
     display: flex;

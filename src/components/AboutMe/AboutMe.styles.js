@@ -60,7 +60,6 @@ export const AboutMeContainer = styled.div`
     }
 
     p {
-      margin: 60px;
       font-size: 20px;
     }
 

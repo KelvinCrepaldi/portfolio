@@ -13,7 +13,6 @@ export const LayoutContainer = styled.div`
     min-height: 100vh;
     width: 100%;
     max-width: 1200px;
-    background-color: rgb(0, 0, 0, 0.4);
   }
 `;
 

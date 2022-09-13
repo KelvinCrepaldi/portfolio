@@ -5,33 +5,46 @@ import Technologies from "../../components/Technologies";
 import GoToPortfolio from "../../components/GoToPortfolio";
 import Contact from "../../components/Contact";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import {
+  faGithub,
+  faLinkedin,
+  faDiscord,
+} from "@fortawesome/free-brands-svg-icons";
 import { faAddressCard, faMicrochip } from "@fortawesome/free-solid-svg-icons";
 import meImg from "../../assets/me.png";
 
 const Home = () => {
   return (
     <HomeContainer>
+      <div className="background-lines"></div>
       <div className="title-content">
-        <div className="top-content">
+        <div className="apresentation-content">
           <img className="me-img" src={meImg} alt="user" />
-          <div className="title-container">
-            <span className="title-content-top">
-              Olá, eu sou <span className="name">Kelvin Crepaldi</span>
-            </span>
-            <span className="title-content-bottom">
-              Desenvolvedor Full-Stack Jr
-            </span>
-          </div>
-          <div className="button-home-container">
-            <button>
-              <FontAwesomeIcon icon={faGithub}></FontAwesomeIcon>
-              <span>Github</span>
-            </button>
-            <button>
-              <FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon>
-              <span>Linkedin</span>
-            </button>
+          <div>
+            <div className="title-container">
+              <span className="title-content-top">
+                Olá, eu sou <span className="name">Kelvin Crepaldi</span>
+              </span>
+              <span className="title-content-bottom">
+                Desenvolvedor Full-Stack Jr
+              </span>
+            </div>
+            <div className="social-links">
+              <a
+                href="https://github.com/KelvinCrepaldi"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <FontAwesomeIcon icon={faGithub}></FontAwesomeIcon>
+              </a>
+              <a
+                href="https://www.linkedin.com/in/kelvincrepaldi/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon>
+              </a>
+            </div>
           </div>
         </div>
 
