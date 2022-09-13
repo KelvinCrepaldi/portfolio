@@ -3,15 +3,18 @@ import { HomeContainer } from "./Home.styles";
 import AboutMe from "../../components/AboutMe";
 import Technologies from "../../components/Technologies";
 import GoToPortfolio from "../../components/GoToPortfolio";
+import Contact from "../../components/Contact";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faAddressCard, faMicrochip } from "@fortawesome/free-solid-svg-icons";
+import meImg from "../../assets/me.png";
 
 const Home = () => {
   return (
     <HomeContainer>
       <div className="title-content">
-        <div>
+        <div className="top-content">
+          <img className="me-img" src={meImg} alt="user" />
           <div className="title-container">
             <span className="title-content-top">
               Olá, eu sou <span className="name">Kelvin Crepaldi</span>
@@ -49,6 +52,9 @@ const Home = () => {
       </ContentContainer>
       <ContentContainer>
         <GoToPortfolio />
+      </ContentContainer>
+      <ContentContainer title="Contato" icon={faMicrochip}>
+        <Contact />
       </ContentContainer>
     </HomeContainer>
   );

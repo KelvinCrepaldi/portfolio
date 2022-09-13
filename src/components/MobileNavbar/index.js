@@ -40,12 +40,6 @@ const MobileNavBar = () => {
                 <span>Portfolio</span>
               </Link>
             </li>
-            <li>
-              <Link to="/Contact">
-                <FontAwesomeIcon icon={faEnvelope} />
-                <span>Contato</span>
-              </Link>
-            </li>
           </ul>
         </NavBarMobile>
       )}

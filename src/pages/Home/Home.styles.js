@@ -6,6 +6,20 @@ export const HomeContainer = styled.div`
 
   //========================= TITLE =======================
 
+  .top-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .me-img {
+    display: block;
+    margin: 30px;
+    border: 3px solid white;
+    width: 50%;
+    border-radius: 1000px;
+    object-fit: cover;
+  }
+
   .title-content {
     display: flex;
     flex-wrap: wrap;
@@ -21,7 +35,6 @@ export const HomeContainer = styled.div`
 
     width: 300px;
     padding: 15px;
-    margin: 30vh 0px 20px 0px;
     border-radius: 10px;
 
     background: rgb(255, 255, 255);
@@ -91,6 +104,15 @@ export const HomeContainer = styled.div`
       font-size: 16px;
       color: rgb(255, 255, 255, 0.5);
       margin-top: 10px;
+    }
+  }
+
+  @media only screen and (min-width: 875px) {
+    .welcome-message {
+      span {
+        width: 400px;
+        font-size: 18px;
+      }
     }
   }
 `;

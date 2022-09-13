@@ -3,9 +3,17 @@ import styled from "styled-components";
 export const LayoutContainer = styled.div`
   width: 100vw;
   padding-top: 70px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 
   .content-page {
+    display: flex;
+    justify-content: center;
     min-height: 100vh;
+    width: 100%;
+    max-width: 1200px;
+    background-color: rgb(0, 0, 0, 0.4);
   }
 `;
 

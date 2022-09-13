@@ -7,7 +7,7 @@ export const AboutMeContainer = styled.div`
   p {
     margin: 30px 20px;
     text-align: center;
-    font-size: 16px;
+    font-size: 18px;
     color: white;
   }
 
@@ -38,5 +38,40 @@ export const AboutMeContainer = styled.div`
     color: rgb(255, 255, 255, 0.7);
     letter-spacing: 6px;
     margin: 60px 0 10px 0;
+  }
+
+  .first-block,
+  .second-block {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  @media only screen and (min-width: 875px) {
+    margin: 30px;
+    .first-block,
+    .second-block {
+      flex-wrap: nowrap;
+      align-items: center;
+    }
+
+    .second-block {
+      flex-direction: row-reverse;
+    }
+
+    p {
+      margin: 60px;
+      font-size: 20px;
+    }
+
+    .final-message {
+      font-size: 24px;
+    }
+
+    img {
+      width: 500px;
+      max-width: unset;
+      margin: 35px;
+    }
   }
 `;
