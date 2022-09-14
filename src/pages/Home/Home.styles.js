@@ -9,16 +9,13 @@ export const HomeContainer = styled.div`
   .apresentation-content {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+
     flex-direction: column;
+    align-items: center;
   }
   .me-img {
-    display: block;
     margin: 30px;
-    border: 3px solid white;
-    width: 250px;
-    border-radius: 1000px;
-    object-fit: cover;
+    width: 50vw;
   }
 
   .title-content {
@@ -57,7 +54,7 @@ export const HomeContainer = styled.div`
 
   .title-content-top {
     display: flex;
-    font-size: 20px;
+    font-size: 24px;
     color: rgba(255, 255, 255, 0.8);
   }
   .title-content-bottom {

@@ -1,17 +1,15 @@
-import ContentContainer from "../../components/ContentContainer ";
 import { HomeContainer } from "./Home.styles";
+
+import ContentContainer from "../../components/ContentContainer ";
 import AboutMe from "../../components/AboutMe";
 import Technologies from "../../components/Technologies";
 import GoToPortfolio from "../../components/GoToPortfolio";
 import Contact from "../../components/Contact";
+import meImg from "../../assets/img1.svg";
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faGithub,
-  faLinkedin,
-  faDiscord,
-} from "@fortawesome/free-brands-svg-icons";
 import { faAddressCard, faMicrochip } from "@fortawesome/free-solid-svg-icons";
-import meImg from "../../assets/me.png";
+import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 const Home = () => {
   return (

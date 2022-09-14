@@ -1,4 +1,5 @@
 import { AboutMeContainer } from "./AboutMe.styles";
+import image2 from "../../assets/img2.svg";
 
 const AboutMe = () => {
   return (
@@ -9,10 +10,7 @@ const AboutMe = () => {
         tempo para aprender desenvolvimento web.
       </p>
       <div className="first-block">
-        <img
-          src="https://static.semrush.com/blog/uploads/media/43/b0/43b0b9a04c8a433a0c52360c9cc9aaf2/seo-guide-to-yoast-for-wordpress.svg"
-          alt="yoast seo"
-        />
+        <img src={image2} alt="yoast seo" />
         <p>
           Gosto da área porque me sinto feliz criando códigos e atingindo as
           metas de um projeto, dessa forma meus objetivos são melhorar minhas
