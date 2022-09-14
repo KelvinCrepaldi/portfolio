@@ -32,26 +32,22 @@ const Contact = () => {
   return (
     <ContactContainer>
       <h2>Acesse minhas páginas:</h2>
-      <ul>
-        <li>
-          <a
-            href="https://www.linkedin.com/in/kelvincrepaldi/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <FontAwesomeIcon icon={faLinkedin} />
-          </a>
-        </li>
-        <li>
-          <a
-            href="https://github.com/KelvinCrepaldi"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <FontAwesomeIcon icon={faGithub} />
-          </a>
-        </li>
-      </ul>
+      <div className="social-links">
+        <a
+          href="https://github.com/KelvinCrepaldi"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <FontAwesomeIcon icon={faGithub}></FontAwesomeIcon>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/kelvincrepaldi/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon>
+        </a>
+      </div>
       <h2>Ou deixe uma mensagem:</h2>
       <form className="form" onSubmit={handleSubmit(onSubmitFunction)}>
         <input placeholder="Nome" {...register("name")} />

@@ -20,8 +20,8 @@ export const ContactContainer = styled.div`
     background: none;
     border: none;
 
-    color: white;
-    border-bottom: 2px solid #003d00;
+    color: var(--h1-color);
+    border-bottom: 2px solid var(--title-homepage);
     font-size: 18px;
     padding: 5px;
     transition: 0.3s;
@@ -44,27 +44,13 @@ export const ContactContainer = styled.div`
     color: #dadada;
     margin-top: 20px;
   }
-  ul {
-    display: flex;
-    justify-content: center;
-  }
-  li {
-    display: block;
-    margin: 15px;
-    transition: 0.3s;
-    color: #838383;
-  }
+
   button {
     margin: 10px auto;
     padding: ;
   }
   a {
     font-size: 50px;
-  }
-  li:hover {
-    cursor: pointer;
-    color: green;
-    transform: scale(1.3);
   }
 
   .error-message {

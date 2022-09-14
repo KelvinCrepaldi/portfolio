@@ -53,14 +53,13 @@ const GlobalStyle = createGlobalStyle`
     // GLOBAL CONFIG
 
     html, body{
-        max-width: 100vw;
         -webkit-box-sizing: border-box;
         -moz-box-sizing: border-box;
         box-sizing: border-box;
     }
 
     body{
-        background: #2F2E3C;
+        background: rgb(30 30 30);
         background-attachment: fixed;
         background-size: 100% 100%;
         min-width: 360px;
@@ -70,8 +69,12 @@ const GlobalStyle = createGlobalStyle`
     // GLOBAL VARIABLES
 
     :root{
-        --top-title: #A4A4A4;
-        --transparent-container-black: rgb(0,0,0,0.2)
+        --title-homepage: #8b72fae6;
+        --sub-title-homepage: rgb(255,255,255,0.8);
+        --transparent-container-black: rgb(0,0,0,0.2);
+        --p-color: rgb(255,255,255,0.8);
+        --h1-containter-content-color: rgb(255,255,255,0.8);
+
     }
 
     /* width */
