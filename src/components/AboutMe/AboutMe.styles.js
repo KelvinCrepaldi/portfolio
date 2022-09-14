@@ -5,14 +5,10 @@ export const AboutMeContainer = styled.div`
   justify-content: center;
 
   p {
-    margin: 30px 20px;
-    text-align: center;
-    font-size: 18px;
-    color: white;
   }
 
   img {
-    width: 80%;
+    width: 50%;
     max-width: 350px;
     margin: 20px;
     background-color: rgb(0, 0, 0, 0.1);
@@ -68,7 +64,7 @@ export const AboutMeContainer = styled.div`
     }
 
     img {
-      width: 500px;
+      width: 40%;
       max-width: unset;
       margin: 35px;
     }

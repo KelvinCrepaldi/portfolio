@@ -1,5 +1,6 @@
 import { AboutMeContainer } from "./AboutMe.styles";
 import image2 from "../../assets/img2.svg";
+import image1 from "../../assets/img1.svg";
 
 const AboutMe = () => {
   return (
@@ -19,10 +20,7 @@ const AboutMe = () => {
         </p>
       </div>
       <div className="second-block">
-        <img
-          src="https://static.semrush.com/blog/uploads/media/43/b0/43b0b9a04c8a433a0c52360c9cc9aaf2/seo-guide-to-yoast-for-wordpress.svg"
-          alt="yoast seo"
-        />
+        <img src={image1} alt="yoast seo" />
         <p>
           Formado pela Kenzie Academy como Full Stack, aprendi principais
           tecnologias de Front End e Back End. Entre as linguagens e tecnologias

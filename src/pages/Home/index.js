@@ -14,7 +14,6 @@ import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 const Home = () => {
   return (
     <HomeContainer>
-      <div className="background-lines"></div>
       <div className="title-content">
         <div className="apresentation-content">
           <img className="me-img" src={meImg} alt="user" />

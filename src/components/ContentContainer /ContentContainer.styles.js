@@ -8,15 +8,24 @@ export const Container = styled.div`
   padding-bottom: 20px;
   flex-grow: 1;
   background-color: rgb(0, 0, 0, 0.5);
+
+  h1 {
+    color: var(--h1-containter-content-color);
+  }
+
+  p {
+    color: var(--p-color);
+    margin: 30px 20px;
+    text-align: center;
+    font-size: 18px;
+  }
   .title {
     width: 100%;
     display: flex;
     color: white;
 
     span {
-      width: 25px;
-      height: 25px;
-      font-size: 20px;
+      font-size: 24px;
       color: rgb(100, 100, 250);
     }
 
@@ -25,11 +34,12 @@ export const Container = styled.div`
       align-items: flex-end;
       margin: 5px;
       font-weight: bold;
+      font-size: 20px;
     }
   }
   .line {
     flex-grow: 1;
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid rgb(255, 255, 255, 0.2);
     margin: 10px 5px;
   }
 `;

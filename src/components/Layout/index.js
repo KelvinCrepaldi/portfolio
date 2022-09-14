@@ -4,6 +4,33 @@ import Footer from "../Footer";
 const Layout = ({ children }) => {
   return (
     <LayoutContainer>
+      <div class="background">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
       <TopBlackContainer>
         <span className="title">{`<Kelvin crepaldi/>`}</span>
         <MobileNavBar></MobileNavBar>
