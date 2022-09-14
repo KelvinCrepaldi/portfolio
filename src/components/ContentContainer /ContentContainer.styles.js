@@ -2,12 +2,12 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   margin: 15px;
-  min-height: 90%;
+  width: 100%;
+  max-width: 1000px;
   padding: 10px;
   padding-bottom: 20px;
-
-  background-color: var(--transparent-container-black);
-
+  flex-grow: 1;
+  background-color: rgb(0, 0, 0, 0.5);
   .title {
     width: 100%;
     display: flex;

@@ -55,8 +55,8 @@ const GlobalStyle = createGlobalStyle`
     html, body{
         max-width: 100vw;
         -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
     }
 
     body{
@@ -73,6 +73,30 @@ const GlobalStyle = createGlobalStyle`
         --top-title: #A4A4A4;
         --transparent-container-black: rgb(0,0,0,0.2)
     }
+
+    /* width */
+::-webkit-scrollbar {
+  width: 10px;
+
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #000000ff;
+  
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #4c475c;
+  border-radius: 5px;
+  
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #6b6b6b;
+}
 
 `;
 

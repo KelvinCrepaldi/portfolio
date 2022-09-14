@@ -4,7 +4,6 @@ import {
   faSquareJs,
   faReact,
 } from "@fortawesome/free-brands-svg-icons";
-import Image from "../assets/logo512.png";
 
 export const techsData = [
   { name: "HTML5", icon: faHtml5 },

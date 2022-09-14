@@ -30,7 +30,7 @@ export const NavBarMobile = styled.nav`
 
   ul {
     width: 100%;
-    padding-bottom: 50px;
+    height: 100vh;
   }
 
   ul li {
