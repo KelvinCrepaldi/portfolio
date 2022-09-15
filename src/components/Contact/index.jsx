@@ -1,6 +1,8 @@
+import { useState } from "react";
 import { yupResolver } from "@hookform/resolvers/yup";
 import { useForm } from "react-hook-form";
 import * as yup from "yup";
+import emailjs from "emailjs-com";
 
 import { ContactContainer } from "./Contact.styles";
 
@@ -23,10 +25,19 @@ const Contact = () => {
     register,
     handleSubmit,
     formState: { errors },
+    resetField,
   } = useForm({ resolver: yupResolver(formSchema) });
 
-  const onSubmitFunction = (data) => {
-    console.log(data);
+  const onSubmitFunction = (e) => {
+    emailjs
+      .send("service_d3ydfkl", "template_or08f1p", e, "Iwkjc70G9OxRfq6OQ")
+      .then(
+        (result) => {},
+        (error) => {}
+      );
+    resetField("name");
+    resetField("email");
+    resetField("message");
   };
 
   return (

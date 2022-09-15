@@ -20,7 +20,7 @@ export const ContactContainer = styled.div`
     background: none;
     border: none;
 
-    color: var(--h1-color);
+    color: #dadada;
     border-bottom: 2px solid var(--title-homepage);
     font-size: 18px;
     padding: 5px;

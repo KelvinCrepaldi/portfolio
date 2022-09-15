@@ -1,6 +1,6 @@
 import { AboutMeContainer } from "./AboutMe.styles";
-import image2 from "../../assets/img2.svg";
 import image1 from "../../assets/img1.svg";
+import image2 from "../../assets/img2.svg";
 
 const AboutMe = () => {
   return (
@@ -29,7 +29,6 @@ const AboutMe = () => {
           disponíveis para o mercado de trabalho, Scrum, Kanban.
         </p>
       </div>
-
       <div className="total-width-space">
         <span className="final-message">E a minha jornada continua . . .</span>
       </div>
