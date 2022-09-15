@@ -43,6 +43,11 @@ export const AboutMeContainer = styled.div`
     flex-wrap: wrap;
   }
 
+  .bottom-img {
+    width: 90%;
+    max-width: 450px;
+  }
+
   @media only screen and (min-width: 875px) {
     margin: 30px;
     .first-block,
@@ -67,6 +72,10 @@ export const AboutMeContainer = styled.div`
       width: 40%;
       max-width: unset;
       margin: 35px;
+    }
+
+    .bottom-img {
+      max-width: 700px;
     }
   }
 `;

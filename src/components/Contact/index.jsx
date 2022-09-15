@@ -33,10 +33,18 @@ const Contact = () => {
     <ContactContainer>
       <h2>Acesse minhas páginas:</h2>
       <div className="social-links">
-        <a href="" target="_blank" rel="noreferrer">
+        <a
+          href="https://github.com/KelvinCrepaldi"
+          target="_blank"
+          rel="noreferrer"
+        >
           <FontAwesomeIcon icon={faGithub}></FontAwesomeIcon>
         </a>
-        <a href="" target="_blank" rel="noreferrer">
+        <a
+          href="https://www.linkedin.com/in/kelvincrepaldi/"
+          target="_blank"
+          rel="noreferrer"
+        >
           <FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon>
         </a>
       </div>

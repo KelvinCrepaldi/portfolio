@@ -34,8 +34,9 @@ const AboutMe = () => {
         <span className="final-message">E a minha jornada continua . . .</span>
       </div>
       <img
-        src="https://static.semrush.com/blog/uploads/media/43/b0/43b0b9a04c8a433a0c52360c9cc9aaf2/seo-guide-to-yoast-for-wordpress.svg"
-        alt="yoast seo"
+        className="bottom-img"
+        src="https://i.imgur.com/pRlisxV.png"
+        alt="Certificado Kenzie Academy"
       />
     </AboutMeContainer>
   );
