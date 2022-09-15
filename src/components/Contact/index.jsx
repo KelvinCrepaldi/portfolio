@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { yupResolver } from "@hookform/resolvers/yup";
 import { useForm } from "react-hook-form";
 import * as yup from "yup";
@@ -24,6 +25,7 @@ const Contact = () => {
     register,
     handleSubmit,
     formState: { errors },
+    resetField,
   } = useForm({ resolver: yupResolver(formSchema) });
 
   const onSubmitFunction = (e) => {
@@ -33,7 +35,9 @@ const Contact = () => {
         (result) => {},
         (error) => {}
       );
-    e.target.reset();
+    resetField("name");
+    resetField("email");
+    resetField("message");
   };
 
   return (
