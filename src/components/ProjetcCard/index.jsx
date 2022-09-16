@@ -1,6 +1,9 @@
+import Button from "../Button";
 import { ProjectCardContainer } from "./ProjectCard";
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faMicrochip } from "@fortawesome/free-solid-svg-icons";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faMicrochip, faDesktop } from "@fortawesome/free-solid-svg-icons";
 
 const ProjectCard = ({ project }) => {
   return (
@@ -23,10 +26,10 @@ const ProjectCard = ({ project }) => {
         </div>
         <div className="buttons-container">
           <a href={project.repo_url} target="_blank" rel="noreferrer">
-            repo
+            <Button icon={faGithub}>Repo ></Button>
           </a>
           <a href={project.demo_url} target="_blank" rel="noreferrer">
-            demo
+            <Button icon={faDesktop}>Demo ></Button>
           </a>
         </div>
       </div>

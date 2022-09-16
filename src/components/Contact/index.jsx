@@ -5,6 +5,7 @@ import * as yup from "yup";
 import emailjs from "emailjs-com";
 
 import { ContactContainer } from "./Contact.styles";
+import Button from "../Button";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
@@ -76,7 +77,7 @@ const Contact = () => {
           <span className="error-message">{errors.message?.message}</span>
         )}
 
-        <button type="submit">Enviar mensagem!</button>
+        <Button type="submit">Enviar mensagem!</Button>
       </form>
     </ContactContainer>
   );

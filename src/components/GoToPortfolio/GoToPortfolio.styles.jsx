@@ -44,18 +44,4 @@ export const GoToPortfolioContainer = styled.div`
     justify-content: center;
     width: 100%;
   }
-
-  button {
-    width: 250px;
-    height: 50px;
-    border: none;
-    background-color: rgb(0, 0, 0, 0.5);
-    color: white;
-    border-radius: 15px;
-    margin: 20px;
-    font-size: 16px;
-  }
-  button span {
-    margin-left: 10px;
-  }
 `;

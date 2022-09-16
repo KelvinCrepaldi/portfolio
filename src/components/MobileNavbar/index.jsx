@@ -1,11 +1,7 @@
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
-import {
-  faHouse,
-  faDiagramProject,
-  faEnvelope,
-} from "@fortawesome/free-solid-svg-icons";
+import { faHouse, faDiagramProject } from "@fortawesome/free-solid-svg-icons";
 import { NavBarButton, NavBarMobile } from "./NavBar.styles";
 import { useState } from "react";
 

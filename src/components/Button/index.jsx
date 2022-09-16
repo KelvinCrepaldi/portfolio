@@ -1,9 +1,10 @@
 import { ButtonContainer } from "./Button.styles";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-const Button = ({ ...props }) => {
+const Button = ({ icon, children, ...rest }) => {
   return (
-    <ButtonContainer>
-      <FontAwesomeIcon></FontAwesomeIcon>
+    <ButtonContainer {...rest}>
+      {icon && <FontAwesomeIcon icon={icon}></FontAwesomeIcon>}
+      <span>{children}</span>
     </ButtonContainer>
   );
 };

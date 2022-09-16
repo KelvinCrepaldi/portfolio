@@ -74,20 +74,11 @@ export const ProjectCardContainer = styled.div`
     display: flex;
     justify-content: center;
     width: 100%;
-  }
 
-  .buttons-container a {
-    min-width: 100px;
-    max-width: 180px;
-    width: 100%;
-    padding: 10px;
-    margin: 20px 15px;
-
-    background-color: rgb(0, 0, 0, 0.7);
-    color: white;
-    text-decoration: none;
-    text-align: center;
-    border-radius: 10px;
+    button {
+      width: 150px;
+      margin: 20px;
+    }
   }
 
   .icon-color {

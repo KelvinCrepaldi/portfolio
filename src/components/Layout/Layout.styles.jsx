@@ -292,5 +292,6 @@ export const TopBlackContainer = styled.header`
   .title {
     font-size: 20px;
     margin: 20px;
+    color: var(--title-homepage);
   }
 `;
