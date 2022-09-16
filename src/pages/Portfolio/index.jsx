@@ -18,7 +18,7 @@ const Portfolio = () => {
               programador, com o objetivo de sempre melhorar. Aqui estão alguns
               deles...
             </p>
-            <div className="tech-filter">
+            {/* <div className="tech-filter">
               <label>
                 <select placeholder="Filtrar...">
                   <option className="option" value="" disabled selected>
@@ -29,7 +29,7 @@ const Portfolio = () => {
                   </option>
                 </select>
               </label>
-            </div>
+            </div> */}
           </div>
         </div>
         <div className="projects-container">

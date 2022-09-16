@@ -2,6 +2,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faDiagramProject } from "@fortawesome/free-solid-svg-icons";
 import { GoToPortfolioContainer } from "./GoToPortfolio.styles";
 import { Link } from "react-router-dom";
+import Button from "../Button";
 
 const GoToPortfolio = () => {
   return (
@@ -24,10 +25,7 @@ const GoToPortfolio = () => {
 
       <div className="center-button">
         <Link to="/Portfolio">
-          <button>
-            <FontAwesomeIcon icon={faDiagramProject} />
-            <span>Portfólio</span>
-          </button>
+          <Button icon={faDiagramProject}>Portfólio</Button>
         </Link>
       </div>
     </GoToPortfolioContainer>

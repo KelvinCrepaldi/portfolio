@@ -8,7 +8,11 @@ import Contact from "../../components/Contact";
 import meImg from "../../assets/img1.svg";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faAddressCard, faMicrochip } from "@fortawesome/free-solid-svg-icons";
+import {
+  faAddressCard,
+  faMicrochip,
+  faEnvelope,
+} from "@fortawesome/free-solid-svg-icons";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 const Home = () => {
@@ -63,7 +67,7 @@ const Home = () => {
       <ContentContainer>
         <GoToPortfolio />
       </ContentContainer>
-      <ContentContainer title="Contato" icon={faMicrochip}>
+      <ContentContainer title="Contato" icon={faEnvelope}>
         <Contact />
       </ContentContainer>
     </HomeContainer>
