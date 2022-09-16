@@ -34,7 +34,7 @@ const AboutMe = () => {
       </div>
       <img
         className="bottom-img"
-        src="https://i.imgur.com/pRlisxV.png"
+        src="https://i.imgur.com/EoPyQVp.jpg"
         alt="Certificado Kenzie Academy"
       />
     </AboutMeContainer>

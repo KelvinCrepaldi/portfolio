@@ -30,7 +30,7 @@ export const HomeContainer = styled.div`
     flex-wrap: wrap;
     justify-content: center;
 
-    width: 300px;
+    width: 350px;
     padding: 15px;
     border-radius: 10px;
 
@@ -48,7 +48,9 @@ export const HomeContainer = styled.div`
   }
 
   .name {
-    margin: 0 6px;
+    margin: 0 10px;
+    font-weight: bold;
+    color: rgba(77, 84, 185, 1);
   }
 
   .title-content-top {
