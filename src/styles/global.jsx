@@ -63,7 +63,7 @@ const GlobalStyle = createGlobalStyle`
         background-attachment: fixed;
         background-size: 100% 100%;
         min-width: 360px;
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-family: var(--font-pro);
     }
 
     // GLOBAL VARIABLES
@@ -74,6 +74,7 @@ const GlobalStyle = createGlobalStyle`
         --transparent-container-black: rgb(0,0,0,0.2);
         --p-color: rgb(255,255,255,0.8);
         --h1-containter-content-color: rgb(255,255,255,0.8);
+        --font-pro: 'Source Code Pro', monospace; ;
 
     }
 

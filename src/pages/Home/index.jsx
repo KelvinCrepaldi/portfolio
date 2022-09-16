@@ -20,7 +20,7 @@ const Home = () => {
           <div>
             <div className="title-container">
               <span className="title-content-top">
-                Olá, eu sou <span className="name">Kelvin Crepaldi</span>
+                Olá, eu sou Kelvin Crepaldi
               </span>
               <span className="title-content-bottom">
                 Desenvolvedor Full-Stack Jr
