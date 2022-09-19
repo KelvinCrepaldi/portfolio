@@ -1,4 +1,5 @@
 import { Route, Routes } from "react-router-dom";
+import { AnimatePresence } from "framer-motion";
 
 import Home from "../pages/Home";
 import Portfolio from "../pages/Portfolio";
@@ -9,10 +10,12 @@ const RoutesPatchs = () => {
   return (
     <Layout>
       <ScrollToTop>
-        <Routes>
-          <Route exact path="/" element={<Home />} />
-          <Route path="/portfolio" element={<Portfolio />} />
-        </Routes>
+        <AnimatePresence>
+          <Routes>
+            <Route exact path="/" element={<Home />} />
+            <Route path="/portfolio" element={<Portfolio />} />
+          </Routes>
+        </AnimatePresence>
       </ScrollToTop>
     </Layout>
   );

@@ -15,8 +15,7 @@ export const NavBarContainer = styled.nav`
     top: 70px;
     right: 0px;
     height: 100vh;
-    width: 50vw;
-    min-width: 300px;
+    width: 250px;
 
     background-color: rgb(0, 0, 0, 0.9);
     transition: 0.3s;
@@ -49,7 +48,7 @@ export const NavBarContainer = styled.nav`
   }
 
   .menu-close {
-    transform: translateX(50vw);
+    right: -250px;
     opacity: 0;
   }
 
