@@ -29,7 +29,7 @@ export const LayoutContainer = styled.div`
     left: 0;
     background: #1e1e1e;
     overflow: hidden;
-    z-index: -10;
+    z-index: -1;
   }
 
   .background span {
@@ -271,7 +271,7 @@ export const LayoutContainer = styled.div`
   }
 `;
 
-export const TopBlackContainer = styled.header`
+export const HeaderContainer = styled.header`
   width: 100vw;
   height: 70px;
 
@@ -281,17 +281,22 @@ export const TopBlackContainer = styled.header`
   position: fixed;
   top: 0;
 
-  background: rgb(0, 0, 0);
-  background: linear-gradient(
-    180deg,
-    rgba(0, 0, 0, 1) 90%,
-    rgba(45, 23, 23, 0) 100%
-  );
+  background: rgb(0, 0, 0, 0.9);
   color: var(--top-title);
+  box-shadow: 0px 0px 3px 2px black;
 
   .title {
+    display: flex;
+    align-items: center;
     font-size: 20px;
-    margin: 20px;
+    margin: 0 20px;
     color: var(--title-homepage);
+  }
+
+  @media only screen and (min-width: 875px) {
+    height: 80px;
+    .title {
+      font-size: 26px;
+    }
   }
 `;
