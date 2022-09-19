@@ -1,12 +1,14 @@
-import MobileNavBar from "../MobileNavbar";
-import { TopBlackContainer, LayoutContainer } from "./Layout.styles";
+import NavBar from "../NavBar";
+import { HeaderContainer, LayoutContainer } from "./Layout.styles";
 import Footer from "../Footer";
 import { faLaptopCode } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { useState } from "react";
 const Layout = ({ children }) => {
+  const [menuIsVisible, setMenuIsVisible] = useState(true);
   return (
     <LayoutContainer>
-      <div class="background">
+      <div className="background">
         <span></span>
         <span></span>
         <span></span>
@@ -33,13 +35,17 @@ const Layout = ({ children }) => {
         <span></span>
         <span></span>
       </div>
-      <TopBlackContainer>
+
+      <HeaderContainer>
         <span className="title">
           <FontAwesomeIcon icon={faLaptopCode} />
           {` <Kelvin crepaldi/>`}
         </span>
-        <MobileNavBar></MobileNavBar>
-      </TopBlackContainer>
+        <NavBar
+          menuIsVisible={menuIsVisible}
+          setMenuIsVisible={setMenuIsVisible}
+        ></NavBar>
+      </HeaderContainer>
 
       <div className="content-page">{children}</div>
       <Footer></Footer>
