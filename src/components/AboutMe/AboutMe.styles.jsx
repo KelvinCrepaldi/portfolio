@@ -36,8 +36,7 @@ export const AboutMeContainer = styled.div`
     margin: 60px 0 10px 0;
   }
 
-  .first-block,
-  .second-block {
+  .content-block {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -50,8 +49,7 @@ export const AboutMeContainer = styled.div`
 
   @media only screen and (min-width: 875px) {
     margin: 30px;
-    .first-block,
-    .second-block {
+    .content-block {
       flex-wrap: nowrap;
       align-items: center;
     }

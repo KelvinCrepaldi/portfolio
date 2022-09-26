@@ -1,13 +1,14 @@
 import styled from "styled-components";
 
 export const Container = styled.section`
-  margin: 15px;
+  margin: 20px auto;
   width: 100%;
   max-width: 1000px;
-  padding: 10px;
+  padding: 20px;
   padding-bottom: 20px;
   flex-grow: 1;
   background-color: rgb(0, 0, 0, 0.5);
+  box-sizing: border-box;
 
   h1 {
     color: var(--h1-containter-content-color);

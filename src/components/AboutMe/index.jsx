@@ -10,17 +10,8 @@ const AboutMe = () => {
         sistemas computacionais na adolescência, desde então tenho dedicado meu
         tempo para aprender desenvolvimento web.
       </p>
-      <div className="first-block">
+      <div className="content-block">
         <img src={image2} alt="yoast seo" />
-        <p>
-          Gosto da área porque me sinto feliz criando códigos e atingindo as
-          metas de um projeto, dessa forma meus objetivos são melhorar minhas
-          habilidades como programador, e me tornar um programador completo Full
-          Stack, tendo a liberdade de trabalhar em qualquer lugar do mundo.
-        </p>
-      </div>
-      <div className="second-block">
-        <img src={image1} alt="yoast seo" />
         <p>
           Formado pela Kenzie Academy como Full Stack, aprendi principais
           tecnologias de Front End e Back End. Entre as linguagens e tecnologias

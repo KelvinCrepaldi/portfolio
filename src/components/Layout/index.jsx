@@ -8,34 +8,6 @@ const Layout = ({ children }) => {
   const [menuIsVisible, setMenuIsVisible] = useState(true);
   return (
     <LayoutContainer>
-      <div className="background">
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
-
       <HeaderContainer>
         <span className="title">
           <FontAwesomeIcon icon={faLaptopCode} />
