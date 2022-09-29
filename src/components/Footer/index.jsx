@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <FooterContainer>
       <span>Page created by Kelvin Crepaldi</span>
-      <span>© 2022</span>
+      <span>React.js © 2022</span>
     </FooterContainer>
   );
 };

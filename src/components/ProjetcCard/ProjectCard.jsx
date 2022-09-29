@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const ProjectCardContainer = styled.div`
   display: flex;
+  flex-direction: column;
 
   padding: 10px;
   margin: 10px 5px;
@@ -46,7 +47,7 @@ export const ProjectCardContainer = styled.div`
 
   .info-text p {
     font-size: 16px;
-    padding: 20px;
+    padding: 5px;
   }
 
   .tech-container {
@@ -83,5 +84,25 @@ export const ProjectCardContainer = styled.div`
 
   .icon-color {
     color: #6359f1d8;
+  }
+
+  @media only screen and (min-width: 900px) {
+    .info {
+      margin-bottom: 20px;
+    }
+    .info img {
+      width: 50%;
+    }
+
+    .info-text {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      align-content: center;
+      width: 40%;
+      flex-grow: 1;
+      padding: 20px;
+    }
   }
 `;

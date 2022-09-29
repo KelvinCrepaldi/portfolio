@@ -8,12 +8,15 @@ import { useState } from "react";
 const NavBar = () => {
   const [menu, setMenu] = useState(false);
 
-  const handleActiveMenu = () => {
+  const toggleActiveMenu = () => {
     setMenu(!menu);
+  };
+  const handleCloseMenu = () => {
+    setMenu(false);
   };
   return (
     <NavBarContainer>
-      <button className={`nav-button`} onClick={handleActiveMenu}>
+      <button className={`nav-button`} onClick={toggleActiveMenu}>
         {menu ? (
           <FontAwesomeIcon icon={faXmark} />
         ) : (
@@ -21,7 +24,7 @@ const NavBar = () => {
         )}
       </button>
 
-      <ul className={!menu ? "menu-close" : ""} onClick={handleActiveMenu}>
+      <ul className={!menu ? "menu-close" : ""} onClick={handleCloseMenu}>
         <li>
           <Link to="/">
             <FontAwesomeIcon icon={faHouse} />

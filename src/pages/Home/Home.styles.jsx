@@ -6,6 +6,11 @@ export const HomeContainer = styled.div`
 
   //========================= TITLE =======================
 
+  .motion-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
   .apresentation-content {
     display: flex;
     flex-wrap: wrap;
@@ -15,8 +20,11 @@ export const HomeContainer = styled.div`
   }
   .me-img {
     margin: 30px;
-    width: 60vw;
+    width: 55vw;
     max-width: 350px;
+    border-radius: 100%;
+    border: 5px solid #00000098;
+    box-shadow: 0px 0px 10px #000000;
   }
 
   .title-content {
@@ -30,18 +38,11 @@ export const HomeContainer = styled.div`
     flex-wrap: wrap;
     justify-content: center;
 
-    width: 350px;
+    width: calc(100% - 30px);
     padding: 15px;
     border-radius: 10px;
 
-    background: linear-gradient(
-      90deg,
-      rgba(255, 255, 255, 0.2) 0%,
-      rgba(255, 255, 255, 0) 5%
-    );
-
     span {
-      width: auto;
       text-align: center;
       text-shadow: 1px 1px 3px black;
     }
@@ -54,11 +55,14 @@ export const HomeContainer = styled.div`
   }
 
   .title-content-top {
-    display: flex;
+    width: 100%;
+    text-align: center;
     font-size: 24px;
     color: var(--title-homepage);
   }
   .title-content-bottom {
+    width: 100%;
+    text-align: center;
     font-size: 20px;
     color: var(--sub-title-homepage);
   }
@@ -128,8 +132,11 @@ export const HomeContainer = styled.div`
       padding: 0;
       padding-bottom: 15px;
 
-      span {
-        font-size: 32px;
+      .title-content-top {
+        font-size: 34px;
+      }
+      .title-content-bottom {
+        font-size: 28px;
       }
     }
 
