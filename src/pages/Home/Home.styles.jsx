@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import backgroundSpace from "../../assets/backgroundspace.jpg";
 export const HomeContainer = styled.div`
   display: flex;
   flex-wrap: wrap;
@@ -28,9 +29,19 @@ export const HomeContainer = styled.div`
   }
 
   .title-content {
+    padding-top: 70px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    background: url(${backgroundSpace}) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    min-height: 100vh;
+    box-shadow: inset 0px 0px 10px 4px black;
+    border-bottom: 3px solid black;
   }
 
   .title-container {

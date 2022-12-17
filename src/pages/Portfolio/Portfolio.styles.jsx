@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const PortfolioContainer = styled.div`
   display: flex;
-  margin-top: 20px;
+  margin-top: 90px;
 
   .projects-apresentation {
     display: flex;
