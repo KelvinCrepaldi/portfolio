@@ -32,7 +32,7 @@ const NavBar = () => {
           </Link>
         </li>
         <li>
-          <Link to="/Portfolio">
+          <Link to="/portfolio">
             <FontAwesomeIcon icon={faDiagramProject} />
             <span>Portfolio</span>
           </Link>
