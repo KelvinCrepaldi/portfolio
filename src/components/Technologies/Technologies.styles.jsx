@@ -8,6 +8,8 @@ export const TechnologiesContainer = styled.div`
   padding: 20px;
 
   .tech-card {
+    display: flex;
+
     flex-grow: 1;
     width: 150px;
     padding: 10px;

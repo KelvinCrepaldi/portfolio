@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const ContentContainer = ({ icon, title, children }) => {
   return (
-    <Container id="banana">
+    <Container>
       {title && (
         <div className="title">
           <span>

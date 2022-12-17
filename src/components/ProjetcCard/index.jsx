@@ -8,14 +8,14 @@ import { faMicrochip, faDesktop } from "@fortawesome/free-solid-svg-icons";
 const ProjectCard = ({ project }) => {
   return (
     <ProjectCardContainer>
-      <div>
-        <div className="info">
-          <img src={project.img_print} alt="Project print"></img>
-          <div className="info-text">
-            <h1>{project.title}</h1>
-            <p>{project.description}</p>
-          </div>
+      <div className="info">
+        <img src={project.img_print} alt="Project print"></img>
+        <div className="info-text">
+          <h1>{project.title}</h1>
+          <p>{project.description}</p>
         </div>
+      </div>
+      <div>
         <div className="tech-container">
           <ul>
             <FontAwesomeIcon icon={faMicrochip} className="icon-color" />

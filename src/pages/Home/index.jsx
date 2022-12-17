@@ -6,7 +6,7 @@ import AboutMe from "../../components/AboutMe";
 import Technologies from "../../components/Technologies";
 import GoToPortfolio from "../../components/GoToPortfolio";
 import Contact from "../../components/Contact";
-import meImg from "../../assets/img1.svg";
+import meImg from "../../assets/me.jpg";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -20,6 +20,7 @@ const Home = () => {
   return (
     <HomeContainer>
       <motion.div
+        className="motion-container"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         exit={{ opacity: 0 }}
@@ -27,14 +28,14 @@ const Home = () => {
       >
         <div className="title-content">
           <div className="apresentation-content">
-            <img className="me-img" src={meImg} alt="user" />
+            <img className="me-img" src={meImg} alt="me" />
             <div>
               <div className="title-container">
                 <span className="title-content-top">
                   Olá, eu sou Kelvin Crepaldi
                 </span>
                 <span className="title-content-bottom">
-                  Desenvolvedor Full-Stack Jr
+                  Desenvolvedor Full-Stack
                 </span>
               </div>
               <div className="social-links">
