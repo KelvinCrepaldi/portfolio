@@ -65,7 +65,6 @@ const GlobalStyle = createGlobalStyle`
         background-size: 100% 100%;
         min-width: 360px;
         font-family: var(--font-pro);
-
         overflow-x:hidden ;
     }
 

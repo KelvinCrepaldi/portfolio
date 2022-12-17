@@ -14,8 +14,9 @@ export const ProjectCardContainer = styled.div`
     rgba(0, 0, 0, 0.5) 100%
   );
 
-  border-left: 7px solid rgb(0, 0, 0, 0.3);
+  border-left: 3px solid rgb(0, 0, 0, 0.3);
   border-radius: 10px;
+  box-shadow: 0px 0px 2px rgb(255, 255, 255, 0.6);
 
   img {
     width: 90%;
