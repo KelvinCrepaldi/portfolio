@@ -1,7 +1,7 @@
 import { HomeContainer } from "./Home.styles";
 import { motion } from "framer-motion";
 
-import ContentContainer from "../../components/ContentContainer ";
+import ContentContainer from "../../components/ContentContainer";
 import AboutMe from "../../components/AboutMe";
 import Technologies from "../../components/Technologies";
 import GoToPortfolio from "../../components/GoToPortfolio";
