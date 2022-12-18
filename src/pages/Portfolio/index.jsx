@@ -1,5 +1,5 @@
 import { PortfolioContainer } from "./Portfolio.styles";
-import ContentContainer from "../../components/ContentContainer ";
+import ContentContainer from "../../components/ContentContainer";
 import ProjectCard from "../../components/ProjetcCard";
 import imgProjects from "../../assets/imgprojects.svg";
 import { motion } from "framer-motion";
