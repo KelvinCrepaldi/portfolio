@@ -71,8 +71,8 @@ const GlobalStyle = createGlobalStyle`
     // GLOBAL VARIABLES
 
     :root{
-        --title-homepage: #8b72fae6;
-        --sub-title-homepage: rgb(255,255,255,0.8);
+        --title-homepage: #ad9aff;
+        --sub-title-homepage: #fffffff6;
         --transparent-container-black: rgb(0,0,0,0.2);
         --p-color: rgb(255,255,255,0.8);
         --h1-containter-content-color: rgb(255,255,255,0.8);
