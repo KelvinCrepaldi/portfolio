@@ -29,7 +29,6 @@ const Home = () => {
         >
           <div className="title-content">
             <div className="apresentation-content">
-              <img className="me-img" src={meImg} alt="me" />
               <div>
                 <div className="title-container">
                   <span className="title-content-top">

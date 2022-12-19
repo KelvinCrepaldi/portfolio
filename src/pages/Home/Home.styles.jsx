@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import backgroundSpace from "../../assets/backgroundspace.jpg";
+import streetBackground from "../../assets/street_background.jpg";
 export const HomeContainer = styled.div`
   display: flex;
   flex-wrap: wrap;
@@ -19,27 +19,19 @@ export const HomeContainer = styled.div`
     flex-direction: column;
     align-items: center;
   }
-  .me-img {
-    margin: 30px;
-    width: 55vw;
-    max-width: 350px;
-    border-radius: 100%;
-    border: 5px solid #00000098;
-    box-shadow: 0px 0px 10px #000000;
-  }
 
   .title-content {
     padding-top: 70px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background: url(${backgroundSpace}) no-repeat center center fixed;
+    background: url(${streetBackground}) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     width: 100%;
-    min-height: 100vh;
+    min-height: 80vh;
     box-shadow: inset 0px 0px 10px 4px black;
     border-bottom: 3px solid black;
   }
@@ -113,14 +105,17 @@ export const HomeContainer = styled.div`
     flex-direction: column;
     margin: 60px 0 20px 0;
     width: 100%;
-    text-shadow: 1px 1px 2px black;
-
+    text-shadow: 2px 2px 5px #000000, 2px 2px 1px #000000;
     span {
       display: block;
       width: 320px;
       text-align: center;
-      font-size: 16px;
       color: var(--title-homepage);
+      margin-bottom: 20px;
+    }
+
+    span:last-child {
+      font-weight: bold;
     }
   }
 
@@ -159,7 +154,6 @@ export const HomeContainer = styled.div`
       span {
         width: 400px;
         font-size: 18px;
-        margin: 0;
       }
     }
   }

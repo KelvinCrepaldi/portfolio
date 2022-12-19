@@ -12,12 +12,12 @@ export const NavBarContainer = styled.nav`
     flex-direction: column;
     position: absolute;
     align-items: center;
-    top: 70px;
+    top: 50px;
     right: 0px;
     height: 100vh;
     width: 250px;
 
-    background-color: rgb(0, 0, 0, 0.9);
+    background-color: rgb(0, 0, 0, 0.7);
     transition: 0.3s;
     opacity: 1;
   }
@@ -53,10 +53,8 @@ export const NavBarContainer = styled.nav`
   }
 
   .nav-button {
-    width: 60px;
-    height: 60px;
     margin: 5px;
-    font-size: 50px;
+    font-size: 30px;
     background: none;
     border: none;
     color: var(--sub-title-homepage);
@@ -79,9 +77,6 @@ export const NavBarContainer = styled.nav`
 
     ul li {
       margin: 0px;
-    }
-    ul li a {
-      margin: 5px;
     }
 
     .menu-close {
