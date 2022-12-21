@@ -53,17 +53,14 @@ const GlobalStyle = createGlobalStyle`
     // GLOBAL CONFIG
 
     html, body{
+        width: 100vw;
         -webkit-box-sizing: border-box;
         -moz-box-sizing: border-box;
         box-sizing: border-box;
     }
 
     body{
-        background: rgb(30 30 30);
-        background-image: linear-gradient(40deg,#000000,#181329);
-        background-attachment: fixed;
-        background-size: 100% 100%;
-        min-width: 360px;
+        background: linear-gradient(40deg,#000000,#181329);
         font-family: var(--font-pro);
         overflow-x:hidden ;
     }
