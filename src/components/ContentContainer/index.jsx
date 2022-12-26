@@ -1,9 +1,14 @@
 import { Container } from "./ContentContainer.styles";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { useEffect } from "react";
+import ScrollReveal from "scrollreveal";
 
 const ContentContainer = ({ icon, title, children }) => {
+  useEffect(() => {
+    ScrollReveal().reveal(".container-reveal", { delay: 100 });
+  }, []);
   return (
-    <Container>
+    <Container className="container-reveal">
       {title && (
         <div className="title">
           <span>
