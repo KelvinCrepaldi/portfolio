@@ -23,7 +23,7 @@ const GoToPortfolio = () => {
           <span className="circle"></span>
           <span className="circle"></span>
         </div>
-        <span className="text">Veja alguns dos projetos que participei...</span>
+        <span className="text">Veja alguns dos meus projetos...</span>
       </div>
 
       <div className="center-button">
