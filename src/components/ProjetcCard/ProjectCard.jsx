@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const ProjectCardContainer = styled.div`
   display: flex;
   flex-direction: column;
+  width: 100%;
 
   padding: 10px;
   margin: 10px 5px;
@@ -21,6 +22,7 @@ export const ProjectCardContainer = styled.div`
   img {
     width: 90%;
     max-width: 500px;
+    margin: 20px;
     margin-bottom: 18px;
 
     box-shadow: 1px 1px 5px 2px black;
@@ -42,6 +44,7 @@ export const ProjectCardContainer = styled.div`
   }
 
   .info-text h1 {
+    width: 100%;
     font-size: 32px;
     font-weight: bold;
   }

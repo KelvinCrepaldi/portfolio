@@ -16,6 +16,9 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
+import SliderProjects from "../../components/SliderProjects";
+import { projectsData } from "../../database/techs";
+
 const Home = () => {
   return (
     <>
