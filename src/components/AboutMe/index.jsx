@@ -1,16 +1,22 @@
 import { AboutMeContainer } from "./AboutMe.styles";
 import image1 from "../../assets/img1.svg";
 import image2 from "../../assets/img2.svg";
+import ScrollReveal from "scrollreveal";
+import { useEffect } from "react";
 
 const AboutMe = () => {
+  useEffect(() => {
+    ScrollReveal().reveal(".content-reveal", { delay: 300 });
+  }, []);
+
   return (
     <AboutMeContainer>
-      <p>
+      <p className="content-reveal">
         Meu contato com tecnologia começou a partir da minha curiosidade por
         sistemas computacionais na adolescência, desde então tenho dedicado meu
         tempo para aprender desenvolvimento web.
       </p>
-      <div className="content-block">
+      <div className="content-block content-reveal">
         <img src={image2} alt="yoast seo" />
         <p>
           Formado pela Kenzie Academy como Full Stack, aprendi principais
@@ -24,7 +30,7 @@ const AboutMe = () => {
         <span className="final-message">E a minha jornada continua . . .</span>
       </div>
       <img
-        className="bottom-img"
+        className="bottom-img content-reveal"
         src="https://i.imgur.com/EoPyQVp.jpg"
         alt="Certificado Kenzie Academy"
       />

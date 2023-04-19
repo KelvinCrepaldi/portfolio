@@ -20,6 +20,7 @@ export const techsData = [
   { name: "HTML5", icon: faHtml5 },
   { name: "CSS3", icon: faCss3 },
   { name: "Javascript", icon: faSquareJs },
+  { name: "Typescript", icon: faSquareJs },
   { name: "React.js", icon: faReact },
   { name: "Redux", icon: faReact },
 
@@ -63,10 +64,80 @@ export const projectsData = [
       "EmailJS",
       "Yup",
       "Hook Form",
+      "fontawesome",
     ],
     repo_url: "https://github.com/KelvinCrepaldi/portfolio",
     demo_url: "https://kelvincrepaldi.vercel.app/",
-    img_print: "https://i.imgur.com/njnObrt.jpg",
+    img_print: "https://imgur.com/7M5uhYT.jpg",
+  },
+  {
+    title: "Ninamartinho",
+    description:
+      "Projeto de Portfólio de um artista de concepts, ilustrações e jogos.",
+    techs: [
+      "React.js",
+      "Styled Components",
+      "Vercel",
+      "Swiper",
+      "Yup",
+      "Hook Form",
+      "React-Scroll",
+      "fontawesome",
+    ],
+    repo_url: "https://github.com/KelvinCrepaldi/ninamartinho",
+    demo_url: "https://ninamartinho.vercel.app",
+    img_print: "https://imgur.com/ObGxsiM.jpg",
+  },
+  {
+    title: "VMBProject",
+    description:
+      "App para listar negociações de moedas digitais usando a API Mercadobitcoin, sendo possível filtrar por datas determinadas pelo usuário.",
+    techs: ["Vue.js 3", "Vuetify", "Axios", "Pinea", "Vercel", "Json"],
+    repo_url: "https://github.com/KelvinCrepaldi/VMBProject",
+    demo_url: "https://vmb-project.vercel.app",
+    img_print: "https://imgur.com/CNeqR5O.jpg",
+  },
+  {
+    title: "Loginu-App",
+    description:
+      "Um simples projeto de autenticação com React.js usando uma api Node Express.ts...",
+    techs: [
+      "React.js",
+      "Yup",
+      "Styled Components",
+      "jsonwebtoken",
+      "Hook Form",
+    ],
+    repo_url: "https://github.com/KelvinCrepaldi/loginu-app",
+    demo_url: "https://loginu-app.vercel.app",
+    img_print: "https://imgur.com/tqDnSVY.jpg",
+  },
+  {
+    title: "Loginu-Api",
+    description:
+      "Projeto em Express de autenticação de usuário utilizando typescript",
+    techs: ["Express", "Typescript", "Uuid", "Jsonwebtoken", "Dados voláteis"],
+    repo_url: "https://github.com/KelvinCrepaldi/loginu-api",
+    demo_url: "https://loginu-app.vercel.app",
+    img_print: ApiImage,
+  },
+  {
+    title: "Eximoveisapi Gestão de Imóveis",
+    description:
+      "Projeto em Express.ts + TypeORM para gestão de imóveis, venda e agendamento de visitas",
+    techs: [
+      "Express",
+      "Typescript",
+      "TypeORM",
+      "Docker",
+      "Uuid",
+      "Jsonwebtoken",
+      "bcrypt",
+    ],
+    repo_url: "https://github.com/KelvinCrepaldi/eximoveisapi",
+    demo_url:
+      "https://github.com/KelvinCrepaldi/eximoveisapi/blob/main/diagrama.drawio.png",
+    img_print: ApiImage,
   },
   {
     title: "Lee Coffe",

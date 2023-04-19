@@ -1,24 +1,9 @@
 import styled from "styled-components";
 
-export const LayoutContainer = styled.div`
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  flex-direction: column;
-
-  .content-page {
-    display: flex;
-    justify-content: center;
-    min-height: 100vh;
-    width: 100%;
-  }
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: cover;
-`;
+export const LayoutContainer = styled.div``;
 
 export const HeaderContainer = styled.header`
-  width: 100vw;
+  width: 100%;
   height: 50px;
 
   display: flex;
