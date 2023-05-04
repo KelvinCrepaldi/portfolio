@@ -71,6 +71,14 @@ export const projectsData = [
     img_print: "https://imgur.com/7M5uhYT.jpg",
   },
   {
+    title: "PokeNext",
+    description: "Biblioteca de Pokemons em Next.js e tailwind",
+    techs: ["Next.js", "tailwinds", "Vercel", "fontawesome"],
+    repo_url: "https://github.com/KelvinCrepaldi/pokenext",
+    demo_url: "https://pokenext-nine-mu.vercel.app",
+    img_print: "https://imgur.com/c03kfeM.jpg",
+  },
+  {
     title: "Ninamartinho",
     description:
       "Projeto de Portfólio de um artista de concepts, ilustrações e jogos.",
